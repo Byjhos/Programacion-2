@@ -1,11 +1,10 @@
 import java.io.*;
 import java.util.*;
 public class subconjuntos {
-
     public static void main(String[] args) {
         boolean res=true;
-        String a= "";
-        String b= "";
+          String a= "abc";
+          String b= "xadfbhdc";
         	for (int i = 0; i<a.length(); i++)
         	{
         		char d =a.charAt(i);
@@ -17,9 +16,9 @@ public class subconjuntos {
         	}
         	if(res)
         	{
-        		System.out.print("Si es un subconjunto de a");
+        		System.out.print("La cadena b si es un subconjunto de la cadena a");
         	}
         	else
-        		System.out.print("No es un subconjunto de a");
+        		System.out.print("La cadena b no es un subconjunto de la cadena a");
          }
 }
